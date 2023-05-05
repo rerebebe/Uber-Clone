@@ -1,0 +1,582 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CEA06CA729BEDA3400246200 /* Uber_CloneApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA06CA629BEDA3400246200 /* Uber_CloneApp.swift */; };
+		CEA06CA929BEDA3400246200 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA06CA829BEDA3400246200 /* ContentView.swift */; };
+		CEA06CAB29BEDA3600246200 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEA06CAA29BEDA3600246200 /* Assets.xcassets */; };
+		CEA06CAE29BEDA3600246200 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEA06CAD29BEDA3600246200 /* Preview Assets.xcassets */; };
+		CEA06CB829BEDA3600246200 /* Uber_CloneTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA06CB729BEDA3600246200 /* Uber_CloneTests.swift */; };
+		CEA06CC229BEDA3600246200 /* Uber_CloneUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA06CC129BEDA3600246200 /* Uber_CloneUITests.swift */; };
+		CEA06CC429BEDA3600246200 /* Uber_CloneUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA06CC329BEDA3600246200 /* Uber_CloneUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CEA06CB429BEDA3600246200 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CEA06C9B29BEDA3400246200 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CEA06CA229BEDA3400246200;
+			remoteInfo = "Uber Clone";
+		};
+		CEA06CBE29BEDA3600246200 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CEA06C9B29BEDA3400246200 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CEA06CA229BEDA3400246200;
+			remoteInfo = "Uber Clone";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CEA06CA329BEDA3400246200 /* Uber Clone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Uber Clone.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEA06CA629BEDA3400246200 /* Uber_CloneApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Uber_CloneApp.swift; sourceTree = "<group>"; };
+		CEA06CA829BEDA3400246200 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		CEA06CAA29BEDA3600246200 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CEA06CAD29BEDA3600246200 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CEA06CB329BEDA3600246200 /* Uber CloneTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Uber CloneTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEA06CB729BEDA3600246200 /* Uber_CloneTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Uber_CloneTests.swift; sourceTree = "<group>"; };
+		CEA06CBD29BEDA3600246200 /* Uber CloneUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Uber CloneUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEA06CC129BEDA3600246200 /* Uber_CloneUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Uber_CloneUITests.swift; sourceTree = "<group>"; };
+		CEA06CC329BEDA3600246200 /* Uber_CloneUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Uber_CloneUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CEA06CA029BEDA3400246200 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEA06CB029BEDA3600246200 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEA06CBA29BEDA3600246200 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CEA06C9A29BEDA3400246200 = {
+			isa = PBXGroup;
+			children = (
+				CEA06CA529BEDA3400246200 /* Uber Clone */,
+				CEA06CB629BEDA3600246200 /* Uber CloneTests */,
+				CEA06CC029BEDA3600246200 /* Uber CloneUITests */,
+				CEA06CA429BEDA3400246200 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CEA06CA429BEDA3400246200 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CEA06CA329BEDA3400246200 /* Uber Clone.app */,
+				CEA06CB329BEDA3600246200 /* Uber CloneTests.xctest */,
+				CEA06CBD29BEDA3600246200 /* Uber CloneUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CEA06CA529BEDA3400246200 /* Uber Clone */ = {
+			isa = PBXGroup;
+			children = (
+				CEA06CA629BEDA3400246200 /* Uber_CloneApp.swift */,
+				CEA06CA829BEDA3400246200 /* ContentView.swift */,
+				CEA06CAA29BEDA3600246200 /* Assets.xcassets */,
+				CEA06CAC29BEDA3600246200 /* Preview Content */,
+			);
+			path = "Uber Clone";
+			sourceTree = "<group>";
+		};
+		CEA06CAC29BEDA3600246200 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				CEA06CAD29BEDA3600246200 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		CEA06CB629BEDA3600246200 /* Uber CloneTests */ = {
+			isa = PBXGroup;
+			children = (
+				CEA06CB729BEDA3600246200 /* Uber_CloneTests.swift */,
+			);
+			path = "Uber CloneTests";
+			sourceTree = "<group>";
+		};
+		CEA06CC029BEDA3600246200 /* Uber CloneUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CEA06CC129BEDA3600246200 /* Uber_CloneUITests.swift */,
+				CEA06CC329BEDA3600246200 /* Uber_CloneUITestsLaunchTests.swift */,
+			);
+			path = "Uber CloneUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CEA06CA229BEDA3400246200 /* Uber Clone */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEA06CC729BEDA3600246200 /* Build configuration list for PBXNativeTarget "Uber Clone" */;
+			buildPhases = (
+				CEA06C9F29BEDA3400246200 /* Sources */,
+				CEA06CA029BEDA3400246200 /* Frameworks */,
+				CEA06CA129BEDA3400246200 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Uber Clone";
+			productName = "Uber Clone";
+			productReference = CEA06CA329BEDA3400246200 /* Uber Clone.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CEA06CB229BEDA3600246200 /* Uber CloneTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEA06CCA29BEDA3600246200 /* Build configuration list for PBXNativeTarget "Uber CloneTests" */;
+			buildPhases = (
+				CEA06CAF29BEDA3600246200 /* Sources */,
+				CEA06CB029BEDA3600246200 /* Frameworks */,
+				CEA06CB129BEDA3600246200 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CEA06CB529BEDA3600246200 /* PBXTargetDependency */,
+			);
+			name = "Uber CloneTests";
+			productName = "Uber CloneTests";
+			productReference = CEA06CB329BEDA3600246200 /* Uber CloneTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CEA06CBC29BEDA3600246200 /* Uber CloneUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEA06CCD29BEDA3600246200 /* Build configuration list for PBXNativeTarget "Uber CloneUITests" */;
+			buildPhases = (
+				CEA06CB929BEDA3600246200 /* Sources */,
+				CEA06CBA29BEDA3600246200 /* Frameworks */,
+				CEA06CBB29BEDA3600246200 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CEA06CBF29BEDA3600246200 /* PBXTargetDependency */,
+			);
+			name = "Uber CloneUITests";
+			productName = "Uber CloneUITests";
+			productReference = CEA06CBD29BEDA3600246200 /* Uber CloneUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CEA06C9B29BEDA3400246200 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					CEA06CA229BEDA3400246200 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					CEA06CB229BEDA3600246200 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = CEA06CA229BEDA3400246200;
+					};
+					CEA06CBC29BEDA3600246200 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = CEA06CA229BEDA3400246200;
+					};
+				};
+			};
+			buildConfigurationList = CEA06C9E29BEDA3400246200 /* Build configuration list for PBXProject "Uber Clone" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CEA06C9A29BEDA3400246200;
+			productRefGroup = CEA06CA429BEDA3400246200 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CEA06CA229BEDA3400246200 /* Uber Clone */,
+				CEA06CB229BEDA3600246200 /* Uber CloneTests */,
+				CEA06CBC29BEDA3600246200 /* Uber CloneUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CEA06CA129BEDA3400246200 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEA06CAE29BEDA3600246200 /* Preview Assets.xcassets in Resources */,
+				CEA06CAB29BEDA3600246200 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEA06CB129BEDA3600246200 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEA06CBB29BEDA3600246200 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CEA06C9F29BEDA3400246200 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEA06CA929BEDA3400246200 /* ContentView.swift in Sources */,
+				CEA06CA729BEDA3400246200 /* Uber_CloneApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEA06CAF29BEDA3600246200 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEA06CB829BEDA3600246200 /* Uber_CloneTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEA06CB929BEDA3600246200 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEA06CC429BEDA3600246200 /* Uber_CloneUITestsLaunchTests.swift in Sources */,
+				CEA06CC229BEDA3600246200 /* Uber_CloneUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CEA06CB529BEDA3600246200 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CEA06CA229BEDA3400246200 /* Uber Clone */;
+			targetProxy = CEA06CB429BEDA3600246200 /* PBXContainerItemProxy */;
+		};
+		CEA06CBF29BEDA3600246200 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CEA06CA229BEDA3400246200 /* Uber Clone */;
+			targetProxy = CEA06CBE29BEDA3600246200 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		CEA06CC529BEDA3600246200 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CEA06CC629BEDA3600246200 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CEA06CC829BEDA3600246200 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Uber Clone/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rere.Uber-Clone.Uber-Clone";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CEA06CC929BEDA3600246200 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Uber Clone/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rere.Uber-Clone.Uber-Clone";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CEA06CCB29BEDA3600246200 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rere.Uber-Clone.Uber-CloneTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Uber Clone.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Uber Clone";
+			};
+			name = Debug;
+		};
+		CEA06CCC29BEDA3600246200 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rere.Uber-Clone.Uber-CloneTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Uber Clone.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Uber Clone";
+			};
+			name = Release;
+		};
+		CEA06CCE29BEDA3600246200 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rere.Uber-Clone.Uber-CloneUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Uber Clone";
+			};
+			name = Debug;
+		};
+		CEA06CCF29BEDA3600246200 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rere.Uber-Clone.Uber-CloneUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Uber Clone";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CEA06C9E29BEDA3400246200 /* Build configuration list for PBXProject "Uber Clone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEA06CC529BEDA3600246200 /* Debug */,
+				CEA06CC629BEDA3600246200 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEA06CC729BEDA3600246200 /* Build configuration list for PBXNativeTarget "Uber Clone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEA06CC829BEDA3600246200 /* Debug */,
+				CEA06CC929BEDA3600246200 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEA06CCA29BEDA3600246200 /* Build configuration list for PBXNativeTarget "Uber CloneTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEA06CCB29BEDA3600246200 /* Debug */,
+				CEA06CCC29BEDA3600246200 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEA06CCD29BEDA3600246200 /* Build configuration list for PBXNativeTarget "Uber CloneUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEA06CCE29BEDA3600246200 /* Debug */,
+				CEA06CCF29BEDA3600246200 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CEA06C9B29BEDA3400246200 /* Project object */;
+}
