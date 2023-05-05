@@ -15,7 +15,8 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "simulator": "iPhone 14 Pro Max"
     },
     "android": {
       "adaptiveIcon": {
